@@ -1,28 +1,20 @@
 {% extends "base.html" %}
 {% block content %}
 
-
-
-    {% for word in words %}
-       {{ word.task_name }}<br>
-       {{ word.task_description }}<br>
-       {{ word.is_urgent }}<br>
-    {% endfor %}
-
     <ul class="collapsible">
+        {% for word in words %}
         <li>
-          <div class="collapsible-header white-text light-blue darken-4 text-shadow"><i class="fas fa-caret-down"></i>First</div>
-          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          <div class="collapsible-header white-text light-blue darken-4 text-shadow">
+              <i class="fas fa-caret-down"></i>
+              <strong>{{ word.word_name }}</strong>
+          </div>
+          <div class="collapsible-body">
+              <p>{{ word.word_description }}</p>
+          </div>
         </li>
-        <li>
-          <div class="collapsible-header white-text light-blue darken-4 text-shadow"><i class="fas fa-caret-down"></i>Second</div>
-          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-        </li>
-        <li>
-          <div class="collapsible-header white-text light-blue darken-4 text-shadow"><i class="fas fa-caret-down"></i>Third</div>
-          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-        </li>
-      </ul>
+        {% endfor %}
+    </ul>
+        
             
 
 {% endblock %}
