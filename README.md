@@ -18,11 +18,15 @@
 
 As a new user:
 
-* 
+* I am looking to understand what certain words/terms mean for the game
+* I want the site to be very easy to navigate aswell as being able to use it on other devices aswell
+* I would like to be able to create account for the applicaiton to add new definitions aswell as updating and deleting any defintions made
 
 #### Visting User goals:
 
-* 
+* As a user, i want to be able to sign up to add new defintions for words for others to see and understand what it means
+* As a user, when signing up i would like to have a profile portal that is fully functional and working
+* As a user, i want to be able to upate defintions of words aswell having the option to delete
 
 #### Reasons for the website:
 
