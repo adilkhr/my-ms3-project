@@ -99,8 +99,18 @@ def logout():
     return redirect(url_for("login"))
 
 
-@app.route("/add_words")
+@app.route("/add_words", methods=["GET", "POST"])
 def add_words():
+    if request.method == "POST":
+        words = {
+            "word_name": request.form.get("word_name"),
+            "word_description": request.form.get("word_description"),
+            "created_by": session["user"]
+        }
+        mongo.db.words.insert_one(words)
+        flash("Word Succesfully Added")
+        return redirect(url_for("get_words"))
+        
     return render_template("add_words.html")  
 
 

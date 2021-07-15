@@ -4,7 +4,8 @@
     <h3 class="light-blue-text text-darken-4 center-align">Add new Word</h3>
 
     <div class="row card-panel grey lighten-5">
-        <form class="col s12" method="POST" action="">
+        <form class="col s12" method="POST" action="{{ url_for('add_words') }}">
+          <!-- word name -->
           <div class="row">
             <div class="input-field col s12">
               <i class="fas fa-pencil-alt prefix light-blue-text text-darken-4"></i>
@@ -13,12 +14,21 @@
               <label for="word_name">New Word</label>
             </div>
           </div>
+          <!-- word description -->
           <div class="row">
             <div class="input-field col s12">
               <i class="fas fa-align-left prefix light-blue-text text-darken-4"></i>
               <textarea id="word_description" name="word_description" minlength="5"
                   maxlength="200" class="materialize-textarea validate" required></textarea>
               <label for="word_description">Textarea</label>
+            </div>
+          </div>
+          <!-- submit button -->
+          <div class="row">
+            <div class="col s12 center-align">
+                <button type="submit" class="btn-large light-blue darken-1 text-shadow">
+                    Add Word <i class="fas fa-plus-square right"></i>
+                </button>
             </div>
           </div>
         </form>
