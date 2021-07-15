@@ -110,8 +110,14 @@ def add_words():
         mongo.db.words.insert_one(words)
         flash("Word Succesfully Added")
         return redirect(url_for("get_words"))
-        
+
     return render_template("add_words.html")  
+
+
+@app.route("/edit_word/<word_id>", methods=["GET", "POST"])
+def edit_word(word_id):
+    word = mongo.db.words.find_one({"_id": ObjectId(word_id)})
+    return render_template("edit_word.html", word=word) 
 
 
 if __name__ == "__main__":
