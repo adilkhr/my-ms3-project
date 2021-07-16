@@ -21,9 +21,16 @@
 }
 
 @media (max-width: 400px) {
-nav .brand-logo {
-    font-size: 1.40rem !important;
-    left: 25% !important;
+    nav .brand-logo {
+        font-size: 1.40rem !important;
+        left: 25% !important;
+        }
+    .btn-small {
+        width: 52px;
+        font-size: 8px;
+        }
+    .wordname {
+        font-size: 11px;
     }
 }
 
