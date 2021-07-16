@@ -20,8 +20,11 @@
     line-height: 42px;
 }
 
-@media (max-width: 410px) {
-    .brand-logo{
-        font-size: 1px;
+@media (max-width: 400px) {
+nav .brand-logo {
+    font-size: 1.40rem !important;
+    left: 25% !important;
     }
 }
+
+
