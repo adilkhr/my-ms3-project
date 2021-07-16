@@ -10,15 +10,15 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
     {% block styles %}
     {% endblock %}
-    <title>ADZ Dictionary</title>
+    <title>COD Dictionary</title>
 </head>
 <body>
 
     <header>
         <!-- top navbar -->
-        <nav class="nav-extended text-shadow blue darken-4">
+        <nav class="nav-extended text-shadow black">
             <div class="nav-wrapper">
-              <a href="#!" class="brand-logo">ADZ Dictionary</a>
+              <a href="#!" class="brand-logo">COD Dictionary</a>
               <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="fas fa-bars"></i></a>
               <ul class="right hide-on-med-and-down">
                 <li><a href="{{ url_for('get_words') }}">Home</a></li>
@@ -36,7 +36,7 @@
           
         <!-- mobile sidenav -->
         <ul class="sidenav" id="mobile-demo">
-            <li><h4 class="center-align light-blue-text text-darken-4">ADZ Dictionary</h4></li>
+            <li><h4 class="brand-logo center-align black-text text-darken-4">COD Dictionary</h4></li>
             <li><a href="{{ url_for('get_words') }}">Home</a></li>
         {% if session.user %}
             <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
