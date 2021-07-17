@@ -22,7 +22,7 @@ body {
 }
 
 .btn-small {
-    margin: 5px;
+    margin: 1px;
 }
 
 .collapsible-header .col strong {
@@ -48,11 +48,11 @@ body {
         left: 25% !important;
         }
     .btn-small {
-        width: 52px;
-        font-size: 8px;
+        width: 50px;
+        font-size: 9px;
         }
     .wordname {
-        font-size: 11px;
+        font-size: 10px;
     }
 }
 

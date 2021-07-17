@@ -38,8 +38,8 @@
                     <label for="query">Search Words</label>
                 </div>
                 <div class="col s12 m4">
-                    <a href="{{ url_for('get_words') }}" class="red btn text-shadow">Reset</a>
-                    <button type="submit" class="brown darken-4 btn text-shadow">
+                    <a href="{{ url_for('get_words') }}" class="btn-small red accent-4">Reset</a>
+                    <button type="submit" class="btn-small brown darken-1">
                       <i class="fas fa-search left"></i> Search 
                     </button>
                 </div>
@@ -52,7 +52,7 @@
         {% for word in words %}
         <li> 
           <div class="collapsible-header white-text blue-grey darken-4 text-shadow">
-              <div class="col s1">
+              <div class="col s3">
                     <i class="fas fa-caret-down"></i>
                     {% if session.user|lower == word.created_by|lower %}
                         <a href="{{ url_for('delete_word', word_id=word._id) }}" class="btn-small red accent-4">Del</a>
