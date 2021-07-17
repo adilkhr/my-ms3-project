@@ -20,30 +20,40 @@ As a new user:
 
 * I am looking to understand what certain words/terms mean for the game
 * I want the site to be very easy to navigate aswell as being able to use it on other devices aswell
-* I would like to be able to create account for the applicaiton to add new definitions aswell as updating and deleting any defintions made
+* I would like to be able to create account for the applicaiton to add new definitions
 
 #### Visting User goals:
 
 * As a user, i want to be able to sign up to add new defintions for words for others to see and understand what it means
 * As a user, when signing up i would like to have a profile portal that is fully functional and working
-* As a user, i want to be able to upate defintions of words aswell having the option to delete
+* As a user, i want to be able to update defintions of words aswell having the option to delete
 
 #### Reasons for the website:
 
-* 
+* To allow people who play call of duty to understand what terms that are used in the game mean 
+* To allow experienced players to share new words/terms into the dictionary
 
 ## Scope
 #### What a user may expect:
 
-* 
+* Easy to navigate application
+* A site that is visually appealing on all devices
+* An option to register an account
+* A search option to find a specific word/term that they have heard about while playing the game
+* A log in feature to log in an add a new word to the dictionary
 
 #### What a user may want:
 
-* 
+* An option to edit a word (once they have created an account) that they have added into the dictionary if they feel like they can improve the meaning of it
+* An option to delete a word (once they have created an account) that they added into the dictionary
+* A access link to the official call of duty website
 
 #### As a developer / business I expect:
 
-* 
+* To provide an easy feature for users to register an account
+* To provide an easy login page for users to log in once they have succesfully created their account
+* To allow registered users to create new words with the definition and add them to the dictionary
+* To also allow registered users to only have the choice wether or not they would like to delete or edit their words in the dictionary
 
 ## Structure
 
