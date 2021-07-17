@@ -116,4 +116,40 @@ A future feature that I would like to add to my website would be more customisab
 
 ***
 
+## Skeleton
+
+### Wireframes:
+
+Note: Wireframes for the desktop share similar strucuture for tablet
+
+* Wireframes for desktop have been created  and can be viewed below and the pdf file through this link: 
+
+
+* Wireframes for mobile phone have been created  and can be viewed below and the pdf file through this link: 
+
+### Mockup:
+
+***
+
+## Typography and color scheme
+
+* For Typography I didnt use any specific fonts as i felt the default font looked okay
+* The colour scheme used throughout the page were mainly white, black grey and brown. I kept the colour theme to a minimum as i felt there was no need to overcomplicate the site as it may distract users from the content and would not look visually appealing.
+
+***
+
+## Technonologies Used
+
+* The Languages used to code my project were HTML5 to create the Mark-up language using sematic structure, and CCS3 for the   Cascading style sheet used to style the content look visually appealing, javscript to add some animations and function to certain elements on my site
+* I used python to control the backend code and actions of my project
+* I used fontawesome icon links in my pages to add specific icons to my page to make it look appealing and not dull and boring
+* I used materialize css to create sections of the pages so that it would be resonsive for majority of screens  
+* I used Github to host the repository and Gitpod.io to write the code, and using the command line for committing and pushing the code to Github
+* I used mongodb to store my database and use it for the site
+* I used flask framework
+* I used GIT for version control of the project
+* I used Balsamiq wireframes to create wireframes for my site
+* I used heroku to deploy and host my live site
+
+***
 
