@@ -57,9 +57,18 @@ As a new user:
 
 ## Structure
 
+The website will consits of 3 pages for users that have not logged in,
 
+* A home page which will contain the defintion of words aswell as having search bar, it will also contain some messages for users to understand why the website was designed
+* A log in page for users to log in if they have created an account
+* A Register page for users who dont have an account can register
 
-* 
+The website will consits of 4 pages for users that have an account are logged in,
+
+* Again, a home page which will contain the defintion of words aswell as having search bar, it will also contain some messages for users to understand why the website was designed
+* A profile page which will display the users name to know that they are currently logged in
+* An add word paged which will allow the logged in user to add a word into the dictionary
+* A logout option for users to log out once they are finished using the site
 
 ***
 
