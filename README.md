@@ -88,32 +88,32 @@ Home page will include an image sliders that will present text to make it visual
 
 ### Log in page:
 
-A log in page for users who have already registered in the past to access their account by inputing their username and password into log in form
+A log in page for users who have already registered in the past to access their account by inputing their username and password into log in form.
 
 ### Register page:
 
-A register page for new users to fill in the register form by inputting a username of their choice aswell as a password
+A register page for new users to fill in the register form by inputting a username of their choice aswell as a password.
 
 ### Profile page:
 
-A profile page for users once they log in will be prompted this page with their username showing aswell as a welcome image and welcome text
+A profile page for users once they log in will be prompted this page with their username showing aswell as a welcome image and welcome text.
 
 ### Add words page:
 
-A page for users to add a new word with a definiton to the dicitionary for other users to see when they access the home page of the site
+A page for users to add a new word with a definiton to the dicitionary for other users to see when they access the home page of the site.
 
 ### Log out:
 
-An option for users who are logged in to log out once they are finished using the site
+An option for users who are logged in to log out once they are finished using the site.
 
 ### 
-
 
 ***
 
 ## Future Features 
 
-A future feature that I would like to add to my website would be a login portal. This would enable the members to track their stats, see their progress and make a timetable that suits them.
+A future feature that I would like to add to my website would be more customisable features for users who have an account on their profile page. This would be great for users as they will enjoy using the site even more and will possibly use the site even longer.
 
 ***
+
 
