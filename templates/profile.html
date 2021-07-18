@@ -12,6 +12,13 @@
   </div>
 
   <img class="materialboxed" data-caption="A picture of soilders" src="{{ url_for('static', filename='img/profileimg.jpg')}}">
-  
-  <h4 class="welcomeimg">Welcome soilder!</h4>
+
+  <div class="row">
+    <div class="col s12">
+        <h4 class="center-align">
+            Welcome soilder! 
+            <a href="{{ url_for('add_words') }}" class="light-blue-text text-darken-4">Add a New Word</a>
+        </h4>
+    </div>
+</div>
 {% endblock %}

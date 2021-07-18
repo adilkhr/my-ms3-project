@@ -34,4 +34,20 @@
         </form>
       </div>
 
+       <!-- carousel slide images -->
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="{{ url_for('static', filename='img/newwordimg1.jpg')}}"></a>
+        <a class="carousel-item" href="#two!"><img src="{{ url_for('static', filename='img/newwordimg2.png')}}"></a>
+        <a class="carousel-item" href="#three!"><img src="{{ url_for('static', filename='img/newwordimg3.jpg')}}"></a>
+      </div>
+    
+      <!-- quote text-->
+      <div class="row">
+        <div class="col s12">
+            <h5 class="quote center-align">
+              "A leader leads by example not by force." ~ Sun Tzu
+            </h5>
+        </div>
+    </div>
+
 {% endblock %}

@@ -36,11 +36,27 @@
 
   <div class="row">
       <div class="col s12">
-          <p class="center-align">
+          <h5 class="center-align">
               New Here? 
               <a href="{{ url_for('register') }}" class="light-blue-text text-darken-4">Register Account</a>
-          </p>
+          </h5>
       </div>
   </div>
+
+   <!-- carousel slide images -->
+  <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="{{ url_for('static', filename='img/loginimg1.jpg')}}"></a>
+    <a class="carousel-item" href="#two!"><img src="{{ url_for('static', filename='img/loginimg2.jpg')}}"></a>
+    <a class="carousel-item" href="#three!"><img src="{{ url_for('static', filename='img/loginimg3.jpg')}}"></a>
+  </div>
+
+  <!-- quote text-->
+  <div class="row">
+    <div class="col s12">
+        <h5 class="quote center-align">
+            "If we don't end war, war will end us." ~ H. G. Wells
+        </h5>
+    </div>
+</div>
 
 {% endblock %}

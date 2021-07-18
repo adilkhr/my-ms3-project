@@ -68,34 +68,35 @@
     {% endblock %}
    </main>
 
+   <!-- Footer -->
    <footer class="page-footer black">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">About Us</h5>
-          <p class="grey-text text-lighten-4">We are a community who aim to help COD players to understand more on what specifc words and terms mean so that they get a better understanding</p>
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">About Us</h5>
+              <p class="grey-text text-lighten-4">We are a community who aim to help COD players to understand more on what specifc words and terms mean so that they get a better understanding of the game</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Social Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="https://en-gb.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="grey-text text-lighten-3" href="https://twitter.com/?lang=en-gb" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Social Links</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-3" href="https://en-gb.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
-            <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            <li><a class="grey-text text-lighten-3" href="https://twitter.com/?lang=en-gb" target="_blank"><i class="fab fa-twitter"></i></a></li>
-            <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
-          </ul>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2021 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="https://www.callofduty.com/uk/en/home" target="_blank">Official COD Site</a>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      © 2021 Copyright Text
-      <a class="grey-text text-lighten-4 right" href="https://www.callofduty.com/uk/en/home" target="_blank">Official COD Site</a>
-      </div>
-    </div>
   </footer>
 
-   <script
-  src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
    {% block scripts %}

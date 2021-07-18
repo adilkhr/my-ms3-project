@@ -36,10 +36,26 @@
 
   <div class="row">
     <div class="col s12">
-        <p class="center-align">
+        <h5 class="center-align">
             Already Registered? 
             <a href="{{ url_for('login') }}" class="light-blue-text text-darken-4">Log In</a>
-        </p>
+        </h5>
+    </div>
+</div>
+
+ <!-- carousel slide images -->
+<div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="{{ url_for('static', filename='img/registerimg1.jpg')}}"></a>
+    <a class="carousel-item" href="#two!"><img src="{{ url_for('static', filename='img/registerimg2.jpg')}}"></a>
+    <a class="carousel-item" href="#three!"><img src="{{ url_for('static', filename='img/registerimg3.jpg')}}"></a>
+  </div>
+
+  <!-- quote text-->
+  <div class="row">
+    <div class="col s12">
+        <h5 class="quote center-align">
+            "It is fatal to enter any war without the will to win it." ~ Douglas MacArthur
+        </h5>
     </div>
 </div>
 
