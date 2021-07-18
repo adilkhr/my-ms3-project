@@ -1,4 +1,10 @@
-# Milestone project 3: Building a jargon glossary/dictionary for a particular domain named ADZ COD Dictionary
+# Milestone project 3: Building a jargon glossary/dictionary for a particular domain named COD Dictionary
+
+![Main Mockup](README-files/mainmockup.png)
+
+[Link to Live Website](https://adz-dictionary.herokuapp.com/)
+
+[GitHub Repo](https://github.com/adilkhr/my-ms3-project)
 
 ***
 
@@ -88,19 +94,19 @@ Home page will include an image sliders that will present text to make it visual
 
 ### Log in page:
 
-A log in page for users who have already registered in the past to access their account by inputing their username and password into log in form.
+A log in page for users who have already registered in the past to access their account by inputing their username and password into log in form. It will also contain a carousel slide of images along with a quote underneath it.
 
 ### Register page:
 
-A register page for new users to fill in the register form by inputting a username of their choice aswell as a password.
+A register page for new users to fill in the register form by inputting a username of their choice aswell as a password. It will also contain a carousel slide of images along with a quote underneath it.
 
 ### Profile page:
 
-A profile page for users once they log in will be prompted this page with their username showing aswell as a welcome image and welcome text.
+A profile page for users once they log in will be prompted this page with their username showing aswell as a welcome image and welcome text. It will also have a link for the user to be directed to the add words page.
 
 ### Add words page:
 
-A page for users to add a new word with a definiton to the dicitionary for other users to see when they access the home page of the site.
+A page for users to add a new word with a definiton to the dicitionary for other users to see when they access the home page of the site. It will also contain a carousel slide of images along with a quote underneath it.
 
 ### Log out:
 
@@ -133,8 +139,8 @@ Note: Wireframes for the desktop share similar strucuture for tablet
 
 ## Typography and color scheme
 
-* For Typography I didnt use any specific fonts as i felt the default font looked okay
-* The colour scheme used throughout the page were mainly white, black grey and brown. I kept the colour theme to a minimum as i felt there was no need to overcomplicate the site as it may distract users from the content and would not look visually appealing.
+* For Typography I used google fonts to then apply the oswald font all round the site, and i also used the font-family of Bona Nova for the quotes i have added on some of my pages
+* The colour scheme used throughout the page were mainly white, black, and grey/blue grey. I kept the colour theme to a minimum as i felt there was no need to overcomplicate the site as it may distract users from the content and would not look visually appealing. Using materialize css throughout my project i used the color pallete to pick the colors used in my site, using the following: black, blue-grey darken 4, blue-grey darken 2 and blue-grey darken 1
 
 ***
 
