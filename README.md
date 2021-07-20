@@ -128,10 +128,10 @@ A future feature that I would like to add to my website would be more customisab
 
 Note: Wireframes for the desktop share similar strucuture for tablet
 
-* Wireframes for desktop have been created and can be viewed below and the pdf file through this link: 
+* Wireframes for desktop have been created and can be viewed [here](https://github.com/adilkhr/my-ms3-project/blob/main/wireframes/wireframesms3desktop.pdf)
 
 
-* Wireframes for mobile phone have been created and can be viewed below and the pdf file through this link: 
+* Wireframes for mobile phone have been created and can be viewed [here](https://github.com/adilkhr/my-ms3-project/blob/main/wireframes/wireframesms3phone.pdf)
 
 ### Mockup:
 
