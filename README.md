@@ -76,6 +76,8 @@ The website will consits of 4 pages for users that have an account and are logge
 * An add word paged which will allow the logged in user to add a word into the dictionary
 * A logout option for users to log out once they are finished using the site
 
+Also if a user is logged in and have added words into the dictionary they will be able to delete or edit the word at the home page, when clicking the edit button, they will be directed to a new page to edit the word and update the definiton along with the word.
+
 ***
 
 ## Features
@@ -129,7 +131,6 @@ A future feature that I would like to add to my website would be more customisab
 Note: Wireframes for the desktop share similar strucuture for tablet
 
 * Wireframes for desktop have been created and can be viewed [here](https://github.com/adilkhr/my-ms3-project/blob/main/wireframes/wireframesms3desktop.pdf)
-
 
 * Wireframes for mobile phone have been created and can be viewed [here](https://github.com/adilkhr/my-ms3-project/blob/main/wireframes/wireframesms3phone.pdf)
 
