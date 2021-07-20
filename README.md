@@ -128,12 +128,20 @@ A future feature that I would like to add to my website would be more customisab
 
 Note: Wireframes for the desktop share similar strucuture for tablet
 
-* Wireframes for desktop have been created  and can be viewed below and the pdf file through this link: 
+* Wireframes for desktop have been created and can be viewed below and the pdf file through this link: 
 
 
-* Wireframes for mobile phone have been created  and can be viewed below and the pdf file through this link: 
+* Wireframes for mobile phone have been created and can be viewed below and the pdf file through this link: 
 
 ### Mockup:
+
+![Home Mockup](README-files/mockuphme.png)
+
+![Log in Mockup](README-files/mockuplogin.png)
+
+![Register Mockup](README-files/mockupreg.png)
+
+![Home Mockup](README-files/mockupadd.png)
 
 ***
 
@@ -146,7 +154,7 @@ Note: Wireframes for the desktop share similar strucuture for tablet
 
 ## Technonologies Used
 
-* The Languages used to code my project were HTML5 to create the Mark-up language using sematic structure, and CCS3 for the   Cascading style sheet used to style the content look visually appealing, javscript to add some animations and function to certain elements on my site
+* The Languages used to code my project were HTML5 to create the Mark-up language using sematic structure, and CCS3 for the Cascading style sheet used to style the content look visually appealing, javscript to add some animations and function to certain elements on my site
 * I used python to control the backend code and actions of my project
 * I used fontawesome icon links in my pages to add specific icons to my page to make it look appealing and not dull and boring
 * I used materialize css to create sections of the pages so that it would be resonsive for majority of screens  
