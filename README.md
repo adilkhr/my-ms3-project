@@ -155,16 +155,24 @@ Note: Wireframes for the desktop share similar strucuture for tablet
 
 ## Technonologies Used
 
-* The Languages used to code my project were HTML5 to create the Mark-up language using sematic structure, and CCS3 for the Cascading style sheet used to style the content look visually appealing, javscript to add some animations and function to certain elements on my site
-* I used python to control the backend code and actions of my project
-* I used fontawesome icon links in my pages to add specific icons to my page to make it look appealing and not dull and boring
-* I used materialize css to create sections of the pages so that it would be resonsive for majority of screens  
-* I used Github to host the repository and Gitpod.io to write the code, and using the command line for committing and pushing the code to Github
-* I used mongodb to store my database and use it for the site
-* I used flask framework
-* I used GIT for version control of the project
-* I used Balsamiq wireframes to create wireframes for my site
-* I used heroku to deploy and host my live site
+### Languages & Frameworks
+
+* HTML5 - Mark-up language used to create the pages for site using semantic structure
+* CCS3 - Cascading style sheet used to style the site, aswell as adding media queries to make it responsive for pretty much all devices
+* Javascript - Programming language used to create functions working for the site
+* Python - Programming language used to control backend development of the site
+* Flask - Framework + Extensions
+* Materialize - 
+* jQuery -
+* Gitpod.io -
+* GitHub -
+* GIT
+
+### Front End
+
+### Backend
+
+### Planning
 
 ***
 
