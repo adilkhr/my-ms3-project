@@ -162,17 +162,33 @@ Note: Wireframes for the desktop share similar strucuture for tablet
 * Javascript - Programming language used to create functions working for the site
 * Python - Programming language used to control backend development of the site
 * Flask - Framework + Extensions
-* Materialize - 
-* jQuery -
-* Gitpod.io -
-* GitHub -
-* GIT
+* Materialize - CSS Framework used fro structure, buttons and some styling around the site, aswell as media functions for images
+* jQuery - Used for Materialize initialising
+* Gitpod.io - Used for creating the workspace for writing the code. Using the command line terminal for commiting and pushing to GIT Hub
+* GitHub - Used for hosting repositories
+* GIT - Used for pushing the code to repositories
 
 ### Front End
 
+* Google fonts - Used for the Font
+* Font Awesome - For the icons used
+
 ### Backend
 
+* MongoDB - Used as the database to store the users details, aswell as storing words created by users
+* Heroku - Used to host the deployed project
+
 ### Planning
+
+* Balsamic Wireframes - Used to create the wireframe design of the site
+
+### Flask
+
+The application was built using the Flask Famework which is reliant on the jinja templating language. The application was written in python.
+
+Flask-PyMongo - For the applicaition to interact with the MongoDB database
+
+Werkzeug - Used for providing security's, password_hash, check_password_hash
 
 ***
 
