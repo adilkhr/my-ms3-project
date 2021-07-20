@@ -192,3 +192,38 @@ Werkzeug - Used for providing security's, password_hash, check_password_hash
 
 ***
 
+## Testing
+
+### Supported Screens:
+
+### Supported browsers:
+
+### OS compatability:
+
+### Peformance Testing:
+
+### Testing User Stories:
+
+### Code Validation:
+
+### Fixed bugs:
+
+***
+
+## Deployment
+
+***
+
+## Credits
+
+### Code:
+
+### Media:
+
+### Acknowledgements:
+
+### Content:
+
+### Inspiration:
+
+
