@@ -25,14 +25,22 @@
 As a new user:
 
 * I am looking to understand what certain words/terms mean for the game
-* I want the site to be very easy to navigate aswell as being able to use it on other devices aswell
-* I would like to be able to create account for the applicaiton to add new definitions
+
+* I want the site to be easy to navigate
+
+* I want the the site to be responsive and work on any device
+
+* I want to be able to create an account for the applicaiton to add new definitions
 
 #### Existing User goals:
 
-* As a user, I want to be able to sign up to add new defintions for words for others to see and understand what it means
-* As a user, when signing up I would like to have a profile portal that is fully functional and working
-* As a user, I want to be able to update defintions of words aswell having the option to delete
+* I want to be able to sign up to add new defintions for words for others to see and understand what it means
+
+* I would like to have a profile portal that is fully functional and working
+
+* I want to be able to update defintions of words
+
+* I want to be able to delete words i have created
 
 #### Reasons for the website:
 
