@@ -218,12 +218,40 @@ Werkzeug - Used for providing security's, password_hash, check_password_hash
 
 ### Code:
 
+* I used code from [Materialize css](https://materializecss.com/) for some of my front-end styling and Javascript
+
 ### Media:
+
+* All images used were taken from [google images](https://www.google.com/imghp?hl=en)
 
 ### Acknowledgements:
 
+* Rohit Sharma (mentor support) - Provided me with help on how to structure the site and what should be the main focuses of the project
+
+* Matt Rudge - Template for Gitpod.io
+
+* Full Stack Developers WhatsApp group (members of the codeinstitute slack community) - for taking the time to test the website aswell as providing help when needed with issues
+
+* I had used the [Code institute sample read me template](https://github.com/Code-Institute-Solutions/SampleREADME) to strcuture my own readme.
+
+* [W3schools](https://www.w3schools.com/) was used for various code information and trouble shooting problems
+
+* Code insitute tutor support - Provided me with a lot of help support when needed whenever i contacted them
+
+* [Youtube](https://www.youtube.com/) - Provided me with a lot of help when trouble shooting issues
+
+* [Code instiute Task manager mini project](https://github.com/Code-Institute-Solutions/TaskManagerAuth/tree/main/08-SearchingWithinTheDatabase) Provided me with a lot of help intialising the development process of the site aswell as setting up MONGO DB with the site, it also helped me with understanding more on python and how it works
+
 ### Content:
 
+I asked friends and family to create a profile and add definitions to the site to see if it works effectively
+
+Code & Content (not already attributed): Adil Khair
+
 ### Inspiration:
+
+* Inspiration was taken from the [Code instiute Task manager mini project](https://github.com/Code-Institute-Solutions/TaskManagerAuth/tree/main/08-SearchingWithinTheDatabase) to help gain an idea of how to structure my site and more idea on developing the backend side of my site
+
+* The idea of the site came from the game [Call of Duty](https://www.callofduty.com/uk/en/home), as a player of the game, i thought this would be a great idea for me to create an online dictionary based on the many terms used in the game where new player may not understand words that are being said by other players
 
 
