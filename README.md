@@ -103,6 +103,21 @@ If a user is currently logged in, there will be a logout button for them at the 
 
 ***
 
+## Database
+
+### Database Schema:
+
+I have used a non-relational database with a databse name of Jargon which contains two collections named word and users. 
+
+The words collection will contain documents that will have three keys named: word_name(will contain a string value of the name of the word inputed by the user), word_description(will contain a string value of the definition of the word), and created_by(will contain a string value of the username that has inputed the word into the dictionary). Each word documented will have a ID which is similar to a primary key in a relational database like SQL.
+
+The user collection will contain doccuments of the accounts created with the keys : username and password. Then username key will contain a string of the username created, and the password key will contain a string value of the password created but will not be visable, instead it will generate a random value such as "pbkdf2:sha256:260000$DTJwxoITI5MmjdWl$001c92d44c7655fade6513b3b54cdfae...", this keeps the users account privacy intact.
+
+### Data Model:
+
+
+***
+
 ## Features
 
 ### Navigation Bar:
