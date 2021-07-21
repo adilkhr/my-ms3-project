@@ -107,7 +107,7 @@ If a user is currently logged in, there will be a logout button for them at the 
 
 ### Database Schema:
 
-I have used a non-relational database with a databse name of Jargon which contains two collections named word and users. 
+I have used a non-relational database by using Mongo DB with a databse name of Jargon which contains two collections named word and users. 
 
 The words collection will contain documents that will have three keys named: word_name(will contain a string value of the name of the word inputed by the user), word_description(will contain a string value of the definition of the word), and created_by(will contain a string value of the username that has inputed the word into the dictionary). Each word documented will have a ID which is similar to a primary key in a relational database like SQL.
 
