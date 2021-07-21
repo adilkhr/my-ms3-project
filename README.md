@@ -10,7 +10,7 @@
 
 ## The purpose of the project
 
-* To create an applicaition for users to look for defintiions in regards to the game Call Of Duty warzone and understand what terms mean in the game, and also to allow users to create an account for them to create their own definitons for new words and to be able to then update the site aswell as being able to delete their definitions if they arent happy with it. For Data handling, i will be using MongoDB and flask to achieve the Data handling aspect of the application, aswell as using HTML and custom CSS for the website's front-end.
+* To create an applicaition for users to look for definitions for words used in Call Of Duty warzone and understand what these terms mean in the game. I have allowed users to create an account so they can add their own definitions for new words. Users are able to update and delete their own defintions. I have used MongoDB to store the data and have use the framework Flask alongside HTML and custom CSS for the website's front-end.
 
 ***
 
@@ -30,9 +30,9 @@ As a new user:
 
 #### Existing User goals:
 
-* As a user, i want to be able to sign up to add new defintions for words for others to see and understand what it means
-* As a user, when signing up i would like to have a profile portal that is fully functional and working
-* As a user, i want to be able to update defintions of words aswell having the option to delete
+* As a user, I want to be able to sign up to add new defintions for words for others to see and understand what it means
+* As a user, when signing up I would like to have a profile portal that is fully functional and working
+* As a user, I want to be able to update defintions of words aswell having the option to delete
 
 #### Reasons for the website:
 
@@ -148,8 +148,8 @@ Note: Wireframes for the desktop share similar strucuture for tablet
 
 ## Typography and color scheme
 
-* For Typography I used google fonts to then apply the oswald font all round the site, and i also used the font-family of Bona Nova for the quotes i have added on some of my pages
-* The colour scheme used throughout the page were mainly white, black, and grey/blue grey. I kept the colour theme to a minimum as i felt there was no need to overcomplicate the site as it may distract users from the content and would not look visually appealing. Using materialize css throughout my project i used the color pallete to pick the colors used in my site, using the following: black, blue-grey darken 4, blue-grey darken 2 and blue-grey darken 1
+* For Typography I used google fonts to then apply the oswald font all round the site, and I also used the font-family of Bona Nova for the quotes I have added on some of my pages
+* The colour scheme used throughout the page were mainly white, black, and grey/blue grey. I kept the colour theme to a minimum as I felt there was no need to overcomplicate the site as it may distract users from the content and would not look visually appealing. Using materialize css throughout my project I used the color pallete to pick the colors used in my site, using the following: black, blue-grey darken 4, blue-grey darken 2 and blue-grey darken 1
 
 ***
 
@@ -196,7 +196,7 @@ Werkzeug - Used for providing security's, password_hash, check_password_hash
 
 ### Supported Screens:
 
-After using Materialize to build my pages and the use of CSS media queries styles, using the google inspect tool i was able to see that my site is supported for all screens with a width of 280px. I also did some testing by sending my website link to my friends and familys devices and they had seen no issues.
+After using Materialize to build my pages and the use of CSS media queries styles, using the google inspect tool I was able to see that my site is supported for all screens with a width of 280px. I also did some testing by sending my website link to my friends and familys devices and they had seen no issues.
 
 ### Supported browsers:
 
@@ -224,15 +224,15 @@ Tested on iOS, Android 10, and Windows 10. - I asked a friend with an Android to
 
 #### Existing User
 
-* As a user, i want to be able to add new defintions for words for others to see and understand what it means - The user can add new words in the dictionary at the add word page when they are logged in
+* As a user, I want to be able to add new defintions for words for others to see and understand what it means - The user can add new words in the dictionary at the add word page when they are logged in
 
-* As a user, when signing up i would like to have a profile portal that is fully functional and working - When the user signs up they are prompted to the profile page higlighting their name aswell as a welcome message and image with also a shortcut link to add a new word into the dictionary
+* As a user, when signing up I would like to have a profile portal that is fully functional and working - When the user signs up they are prompted to the profile page higlighting their name aswell as a welcome message and image with also a shortcut link to add a new word into the dictionary
 
-* As a user, i want to be able to update defintions of words aswell having the option to delete - Users can edit or delete any words that they have added into the dictionary when they are logged in at the home page, when clicking the delete button on the word the definiton will delete, when clicking the edit button on the word they are sent to an edit words page which they are then able to edit the word with a new definition or they simply cancel the edit task and be sent straight back to the home page
+* As a user, I want to be able to update defintions of words aswell having the option to delete - Users can edit or delete any words that they have added into the dictionary when they are logged in at the home page, when clicking the delete button on the word the definiton will delete, when clicking the edit button on the word they are sent to an edit words page which they are then able to edit the word with a new definition or they simply cancel the edit task and be sent straight back to the home page
 
 ### Code Validation:
 
-* All my pages of the website was run through the [HTML Validator](https://validator.w3.org/#validate_by_input), because of flask being a templating language, the code when inputed was not showing the html code being valid, however i copied the html code om within DEV Tools, both by viewing page source and from within the inspect as HTML and passed it into the validators to check the validity which all pages showed validity
+* All my pages of the website was run through the [HTML Validator](https://validator.w3.org/#validate_by_input), because of flask being a templating language, the code when inputed was not showing the html code being valid, however I copied the html code om within DEV Tools, both by viewing page source and from within the inspect as HTML and passed it into the validators to check the validity which all pages showed validity
 
 * The [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to check the validity of my CSS code which turned out to be all fine with no faults
 
@@ -242,7 +242,7 @@ Tested on iOS, Android 10, and Windows 10. - I asked a friend with an Android to
 
 ### Fixed bugs:
 
-* I had an issue with my Navbar logo falling out of the navbar space for smaller screen sizes, but i was then able to resolve this issue by adding media queries and css styling to tackle this, i also had issue with the dictionary words and edit and delete button falling out of place of the accordion which again was resolved by adding some media query codes in my css file. See the code bellow:
+* I had an issue with my Navbar logo falling out of the navbar space for smaller screen sizes, but I was then able to resolve this issue by adding media queries and css styling to tackle this, I also had issue with the dictionary words and edit and delete button falling out of place of the accordion which again was resolved by adding some media query codes in my css file. See the code bellow:
 
 @media (max-width: 400px) {
     nav .brand-logo {
@@ -418,7 +418,7 @@ You will need to install the requirements.txt using the following command the co
 
 * [W3schools](https://www.w3schools.com/) was used for various code information and trouble shooting problems
 
-* Code insitute tutor support - Provided me with a lot of help support when needed whenever i contacted them
+* Code insitute tutor support - Provided me with a lot of help support when needed whenever I contacted them
 
 * [Youtube](https://www.youtube.com/) - Provided me with a lot of help when trouble shooting issues
 
@@ -434,6 +434,6 @@ Code & Content (not already attributed): Adil Khair
 
 * Inspiration was taken from the [Code instiute Task manager mini project](https://github.com/Code-Institute-Solutions/TaskManagerAuth/tree/main/08-SearchingWithinTheDatabase) to help gain an idea of how to structure my site and more idea on developing the backend side of my site
 
-* The idea of the site came from the game [Call of Duty](https://www.callofduty.com/uk/en/home), as a player of the game, i thought this would be a great idea for me to create an online dictionary based on the many terms used in the game where new players may not understand words that are being said by other players
+* The idea of the site came from the game [Call of Duty](https://www.callofduty.com/uk/en/home), as a player of the game, I thought this would be a great idea for me to create an online dictionary based on the many terms used in the game where new players may not understand words that are being said by other players
 
 
