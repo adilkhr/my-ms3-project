@@ -239,6 +239,30 @@ Tested on iOS, Android 10, and Windows 10. - I asked a friend with an Android to
 
 ### Fixed bugs:
 
+* I had an issue with my Navbar logo falling out of the navbar space for smaller screen sizes, but i was then able to resolve this issue by adding media queries and css styling to tackle this, i also had issue with the dictionary words and edit and delete button falling out of place of the accordion which again was resolved by adding some media query codes in my css file. See the code bellow:
+
+@media (max-width: 400px) {
+    nav .brand-logo {
+        font-size: 1.40rem !important;
+        left: 25% !important;
+        }
+    .btn-small {
+        width: 50px;
+        font-size: 9px;
+        }
+    .wordname {
+        font-size: 10px;
+    }
+}
+
+* I had an issue with my footer not sticking to the bottom of my pages leaving white spacing underneath it, this was then solved by adding some css code to target the body of my base.html, see the code bellow:
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
 ***
 
 ## Deployment
