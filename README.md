@@ -208,6 +208,10 @@ Tested on iOS, Android 10, and Windows 10. - I asked a friend with an Android to
 
 ### Peformance Testing:
 
+* Tested on the Developer Tools Lighthouse
+
+* I had family and friends test the site on different device to see if there were any major issues they was having when using or acessing the site and turns out they had found no major issues
+
 ### Testing User Stories:
 
 #### New User
@@ -225,7 +229,6 @@ Tested on iOS, Android 10, and Windows 10. - I asked a friend with an Android to
 * As a user, when signing up i would like to have a profile portal that is fully functional and working - When the user signs up they are prompted to the profile page higlighting their name aswell as a welcome message and image with also a shortcut link to add a new word into the dictionary
 
 * As a user, i want to be able to update defintions of words aswell having the option to delete - Users can edit or delete any words that they have added into the dictionary when they are logged in at the home page, when clicking the delete button on the word the definiton will delete, when clicking the edit button on the word they are sent to an edit words page which they are then able to edit the word with a new definition or they simply cancel the edit task and be sent straight back to the home page
-
 
 ### Code Validation:
 
@@ -266,7 +269,6 @@ body {
 ***
 
 ## Deployment
-
 
 ### Configuration:
 
