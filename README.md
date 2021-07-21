@@ -196,9 +196,15 @@ Werkzeug - Used for providing security's, password_hash, check_password_hash
 
 ### Supported Screens:
 
+After using Materialize to build my pages and the use of CSS media queries styles, using the google inspect tool i was able to see that my site is supported for all screens with a width of 280px. I also did some testing by sending my website link to my friends and familys devices and they had seen no issues.
+
 ### Supported browsers:
 
+The website link has been tested on Google chrome, Internet Explorer and Microsoft edge, Brave and Firefox and seem to be working fine.
+
 ### OS compatability:
+
+Tested on iOS, Android 10, and Windows 10. - I asked a friend with an Android to test that it was working. Tested for responsiveness using Chrome DevTools.
 
 ### Peformance Testing:
 
