@@ -76,7 +76,7 @@ The website will consits of 4 pages for users that have an account and are logge
 * An add word paged which will allow the logged in user to add a word into the dictionary
 * A logout option for users to log out once they are finished using the site
 
-Also if a user is logged in and have added words into the dictionary they will be able to delete or edit the word at the home page, when clicking the edit button, they will be directed to a new page to edit the word and update the definiton along with the word.
+Also if a user is logged in and have added words into the dictionary they will be able to delete or edit the word at the home page, when clicking the edit button, they will be directed to a new page to edit the word and update the definiton along with the word. Only the user of the created word has acess to this feature
 
 ***
 
@@ -162,25 +162,25 @@ Note: Wireframes for the desktop share similar strucuture for tablet
 * Javascript - Programming language used to create functions working for the site
 * Python - Programming language used to control backend development of the site
 * Flask - Framework + Extensions
-* Materialize - CSS Framework used fro structure, buttons and some styling around the site, aswell as media functions for images
-* jQuery - Used for Materialize initialising
-* Gitpod.io - Used for creating the workspace for writing the code. Using the command line terminal for commiting and pushing to GIT Hub
-* GitHub - Used for hosting repositories
+* [Materialize](https://materializecss.com/) - CSS Framework used fro structure, buttons and some styling around the site, aswell as media functions for images
+* [jQuery](https://jquery.com/) - Used for Materialize initialising
+* [Gitpod.io](https://www.gitpod.io/) - Used for creating the workspace for writing the code. Using the command line terminal for commiting and pushing to GIT Hub
+* [GitHub](https://github.com/) - Used for hosting repositories
 * GIT - Used for pushing the code to repositories
 
 ### Front End
 
-* Google fonts - Used for the Font
-* Font Awesome - For the icons used
+* [Google fonts](https://fonts.google.com/) - Used for the Font
+* [Font Awesome](https://fontawesome.com/) - For the icons used
 
 ### Backend
 
-* MongoDB - Used as the database to store the users details, aswell as storing words created by users
-* Heroku - Used to host the deployed project
+* [MongoDB](https://account.mongodb.com/account/login?n=%2Fv2%2F60e4812e2528e83f16f7d2bc&nextHash=%23clusters) - Used as the database to store the users details, aswell as storing words created by users
+* [Heroku](https://id.heroku.com/login) - Used to host the deployed project
 
 ### Planning
 
-* Balsamic Wireframes - Used to create the wireframe design of the site
+* [Balsamic Wireframes](https://balsamiq.com/) - Used to create the wireframe designs of the site
 
 ### Flask
 
@@ -252,6 +252,6 @@ Code & Content (not already attributed): Adil Khair
 
 * Inspiration was taken from the [Code instiute Task manager mini project](https://github.com/Code-Institute-Solutions/TaskManagerAuth/tree/main/08-SearchingWithinTheDatabase) to help gain an idea of how to structure my site and more idea on developing the backend side of my site
 
-* The idea of the site came from the game [Call of Duty](https://www.callofduty.com/uk/en/home), as a player of the game, i thought this would be a great idea for me to create an online dictionary based on the many terms used in the game where new player may not understand words that are being said by other players
+* The idea of the site came from the game [Call of Duty](https://www.callofduty.com/uk/en/home), as a player of the game, i thought this would be a great idea for me to create an online dictionary based on the many terms used in the game where new players may not understand words that are being said by other players
 
 
