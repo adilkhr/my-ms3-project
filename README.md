@@ -45,46 +45,59 @@ As a new user:
 #### Reasons for the website:
 
 * To allow people who play call of duty to understand what terms that are used in the game mean 
+
 * To allow experienced players to share new words/terms into the dictionary
 
 ## Scope
 #### What a user may expect:
 
 * Easy to navigate application
+
 * A site that is visually appealing on all devices
+
 * An option to register an account
+
 * A search option to find a specific word/term that they have heard about while playing the game
+
 * A log in feature to log in an add a new word to the dictionary
 
 #### What a user may want:
 
 * An option to edit a word (once they have created an account) that they have added into the dictionary if they feel like they can improve the meaning of it
+
 * An option to delete a word (once they have created an account) that they added into the dictionary
+
 * A access link to the official call of duty website
 
 #### As a developer / business I expect:
 
 * To provide an easy feature for users to register an account
+
 * To provide an easy login page for users to log in once they have succesfully created their account
+
 * To allow registered users to create new words with the definition and add them to the dictionary
+
 * To also allow registered users to only have the choice wether or not they would like to delete or edit their words in the dictionary
 
 ## Structure
 
-The website will consits of 3 pages for users that have not logged in,
+The website will consit of 3 pages for users that are not logged in,
 
-* A home page which will contain the defintion of words aswell as having search bar, it will also contain some messages for users to understand why the website was designed
-* A log in page for users to log in if they have created an account
-* A Register page for users who dont have an account can register
+* A home page which will contain: Dictionary of definitions, Search Bar to search the dictionary, About the website section 
 
-The website will consits of 4 pages for users that have an account and are logged in,
+* A log in page for exising users
 
-* Again, a home page which will contain the defintion of words aswell as having search bar, it will also contain some messages for users to understand why the website was designed
-* A profile page which will display the users name to know that they are currently logged in
-* An add word paged which will allow the logged in user to add a word into the dictionary
-* A logout option for users to log out once they are finished using the site
+* A Register page for new users
 
-Also if a user is logged in and have added words into the dictionary they will be able to delete or edit the word at the home page, when clicking the edit button, they will be directed to a new page to edit the word and update the definiton along with the word. Only the user of the created word has acess to this feature
+The website will consit of 4 pages for users that have an account and are logged in,
+
+* A home page which will contain: Dictionary of definitions, Search Bar to search the dictionary, About the website section
+
+* A profile page - which will display the users name to know that they are currently logged in
+
+* An add word page - which will allow the logged in user to add a word into the dictionary
+
+* An Edit word page - if a user has created a word, at the moe page there will be and edit button for them which will take them the edit word page
 
 ***
 
