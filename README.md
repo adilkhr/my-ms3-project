@@ -125,7 +125,7 @@ The diagram below is the data model design of the site showcasing the architectu
 
 ### Navigation Bar:
 
-The navigation bar will be simple with the colors black and white, easy to use with the name of COD Dictionary which will have a home, log in and register pages for new users and users who are not logged in. When users log in, it will have a home, profile addwords and a logout link. On smaller devices I have used a dropdown button to display the menu to make it fully responsive.
+The navigation bar will be simple with the colors black and white, easy to use with the name of COD Dictionary which will have a home, log in and register pages for new users and users who are not logged in. When users log in, it will have a home, profile, addwords and a logout button. On smaller devices I have used a dropdown button to display the menu to make it fully responsive.
 
 ### Footer:
 
@@ -133,7 +133,7 @@ The footer will contain social media links for users to browse and connect with 
 
 ### Home:
 
-Home page will include an image slider that will present text to the user to make it visually appealing. The dictionary is displayed to show the user all current words. IF the user is the author of a word then a button will appear giving them the option to edit the word. There is a search bar for users to search for words within the dictionary. There is a search bar for users to search for words within the dictionary.
+Home page will include an image slider that will present text to the user to make it visually appealing. The dictionary is displayed to show the user all current words. If the user is the author of a word then two buttond will appear next to the word giving them the option to edit the word, or delete it. There is a search bar for users to search for words within the dictionary.
 
 ### Log in page:
 
@@ -145,7 +145,7 @@ A register page for new users to fill in the register form by inputting a userna
 
 ### Profile page:
 
-A profile page for users once they log in will be prompted this page with their username showing aswell as a welcome image and welcome text. It will also have a link for the user to be directed to the add words page.
+A profile page for users once they log in will be prompted to this page with their username showing aswell as a welcome image and welcome text. It will also have a link for the user to be directed to the add words page.
 
 ### Add words page:
 
@@ -195,8 +195,9 @@ Note: Wireframes for the desktop share similar strucuture for tablet
 
 ## Typography and color scheme
 
-* For Typography I used google fonts to then apply the oswald font all round the site, and I also used the font-family of Bona Nova for the quotes I have added on some of my pages
-* The colour scheme used throughout the page were mainly white, black, and grey/blue grey. I kept the colour theme to a minimum as I felt there was no need to overcomplicate the site as it may distract users from the content and would not look visually appealing. Using materialize css throughout my project I used the color pallete to pick the colors used in my site, using the following: black, blue-grey darken 4, blue-grey darken 2 and blue-grey darken 1
+* For Typography I used google fonts to then apply the oswald font all round the site. I used the font-family of Bona Nova for the quotes that I have added on some of my pages
+
+* The colour scheme used throughout the website were mainly white, black, and grey/blue grey. I kept the colour theme to a minimum as I felt there was no need to overcomplicate the site as it may distract users from the content and would not look visually appealing. Using materialize css throughout my project I used the color pallete they have to pick the colors used in my site, using the following: black, blue-grey darken 4, blue-grey darken 2 and blue-grey darken 1
 
 ***
 
@@ -209,7 +210,7 @@ Note: Wireframes for the desktop share similar strucuture for tablet
 * Javascript - Programming language used to create functions working for the site
 * Python - Programming language used to control backend development of the site
 * Flask - Framework + Extensions
-* [Materialize](https://materializecss.com/) - CSS Framework used fro structure, buttons and some styling around the site, aswell as media functions for images
+* [Materialize](https://materializecss.com/) - CSS Framework used for structure, buttons and some styling around the site, aswell as media functions for images
 * [jQuery](https://jquery.com/) - Used for Materialize initialising
 * [Gitpod.io](https://www.gitpod.io/) - Used for creating the workspace for writing the code. Using the command line terminal for commiting and pushing to GIT Hub
 * [GitHub](https://github.com/) - Used for hosting repositories
@@ -228,12 +229,13 @@ Note: Wireframes for the desktop share similar strucuture for tablet
 ### Planning
 
 * [Balsamic Wireframes](https://balsamiq.com/) - Used to create the wireframe designs of the site
+* Panit - Used to create the data model
 
 ### Flask
 
-The application was built using the Flask Famework which is reliant on the jinja templating language. The application was written in python.
+The application was built using the Flask Framework which is reliant on the jinja templating language. The application was written in python.
 
-I used pip3 install Flask intp the terminal to install flask. I used the standard port used for Flask applications which is "5000" and the IP set to "0.0.0.0".
+I used pip3 install Flask into the terminal to install flask. I used the standard port used for Flask applications which is "5000" and the IP set to "0.0.0.0".
 
 Flask-PyMongo - For the applicaition to interact with the MongoDB database
 
@@ -291,7 +293,9 @@ Tested on iOS, Android 10, and Windows 10. - I asked a friend with an Android to
 
 ### Fixed bugs:
 
-* I had an issue with my Navbar logo falling out of the navbar space for smaller screen sizes, but I was then able to resolve this issue by adding media queries and css styling to tackle this, I also had issue with the dictionary words and edit and delete button falling out of place of the accordion which again was resolved by adding some media query codes in my css file. See the code bellow:
+* I had an issue with my Navbar logo falling out of the navbar space for smaller screen sizes, but I was then able to resolve this issue by adding media queries and css styling to tackle this. 
+
+* I had an issue with the dictionary words and edit and delete button falling out of place of the accordion which again was resolved by adding some media query codes in my css file. See the code bellow:
 
 @media (max-width: 400px) {
     nav .brand-logo {
@@ -307,7 +311,7 @@ Tested on iOS, Android 10, and Windows 10. - I asked a friend with an Android to
     }
 }
 
-* I had an issue with my footer not sticking to the bottom of my pages leaving white spacing underneath it, this was then solved by adding some css code to target the body of my base.html, see the code bellow:
+* I had an issue with my footer not sticking to the bottom of my pages leaving white spacing underneath it, this was then solved by adding some css code to target the body of my base.html, see the code below:
 
 body {
     display: flex;
@@ -472,6 +476,8 @@ You will need to install the requirements.txt using the following command the co
 * [Youtube](https://www.youtube.com/) - Provided me with a lot of help when trouble shooting issues
 
 * [Code instiute Task manager mini project](https://github.com/Code-Institute-Solutions/TaskManagerAuth/tree/main/08-SearchingWithinTheDatabase) Provided me with a lot of help intialising the development process of the site aswell as setting up MONGO DB with the site, it also helped me with understanding more on python and how it works
+
+* Rebecca Kelsall (fellow codeinstiute student) - for proof reading my README.md, and providing me with her [MS3 reposoitory](https://github.com/crypticCaroline/puppyplaymates) to give me an understanding on how to structure my README
 
 ### Content:
 
