@@ -229,7 +229,7 @@ Tested on iOS, Android 10, and Windows 10. - I asked a friend with an Android to
 
 ### Code Validation:
 
-* All my pages of the website was run through the [HTML Validator](https://validator.w3.org/#validate_by_input), because of flask being a templating language, the code when inputed was not showing the html code being valid, however i copied the html code om within DEV Tools, both by viewing page source and from within the inspect as HTML and pasted it into the validators to check the validity which all pages showed validity
+* All my pages of the website was run through the [HTML Validator](https://validator.w3.org/#validate_by_input), because of flask being a templating language, the code when inputed was not showing the html code being valid, however i copied the html code om within DEV Tools, both by viewing page source and from within the inspect as HTML and passed it into the validators to check the validity which all pages showed validity
 
 * The [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to check the validity of my CSS code which turned out to be all fine with no faults
 
@@ -242,6 +242,131 @@ Tested on iOS, Android 10, and Windows 10. - I asked a friend with an Android to
 ***
 
 ## Deployment
+
+
+### Configuration:
+
+Bellow your imports you will need to configure your app.py file. You will need to import your local env.py for local environments.
+
+Configure as follows:
+
+if os.path.exists("env.py"):
+    import env
+
+
+app = Flask(__name__)
+
+app.config["MONGO_DBNAME"] = os.environ.get("MONGO_DBNAME")
+app.config["MONGO_URI"] = os.environ.get("MONGO_URI")
+app.secret_key = os.environ.get("SECRET_KEY")
+
+mongo = PyMongo(app)
+
+To start your application, you will need to user the following at the bottom of your app.py file. You will need to ensure that debug=False prior to deployment.
+
+        if __name__ == '__main__':
+            app.run(host=os.environ.get('IP'),
+                    port=int(os.environ.get('PORT')),
+                    debug=False)
+
+You will need to add a Procfile and ensure your requirements.txt are up to date. 
+In your root folder in the terminal type - touch Procfile -  this will create a Procfile
+Add the following with the following 
+    web: python app.py
+
+To install the requirements.txt use the following command in the terminal command line
+    pip3 install -r requirements.txt
+
+#### Local Environment:
+
+Create env.py file in the same file system. In your route folder type - touch env.py - to create the file. 
+Your virtual configurations should look similar to this. You will need to create a SECRET_KEY and input the IP and PORT settings. I used [Random Key Gen](https://randomkeygen.com/) which created a random key for me to use.
+
+        import os
+
+        # App config
+        os.environ.setdefault("IP", "0.0.0.0")
+        os.environ.setdefault("PORT", "5000")
+        os.environ.setdefault("SECRET_KEY", "<Your secret key>")
+
+        # MongoDB config
+        os.environ.setdefault(
+            "MONGO_URI", "mongodb+srv://<user>:<password>@<project>.af8bz.mongodb.net/<database>?retryWrites=true&w=majority")
+        os.environ.setdefault("MONGO_DBNAME", "<database>")
+
+### Adding and Committing files:
+
+To add files to the repository, make sure to follow the steps bellow:
+
+In the command line type -
+        git add .  
+        git commit -m "This is being committed"
+        git push
+
+To add all new files or modified file use " ."  - To add a single file, use the pathway to the file eg .base.html or assets/css/style.css
+When committing make sure your comments are clear about what changes have been made and are not too long. 
+initiating a git push will then send your work to the repository
+
+### Deploying:
+
+Requirements for deploying:
+* MongoDB Account
+* Heroku Account
+
+Deploying to [Heroku](https://dashboard.heroku.com/)
+
+* You will need to create an account with [Heroku](https://dashboard.heroku.com/)
+* Once logged in click the create new app button
+* Select the region that is closest to you and give the APP a name
+* Set your deployment method to 'GitHub'
+* Connect to GitHub and login
+* Search for the repository you wish to deploy from
+* You will need to head to settings and click 'Config Vars'
+    * You will now need to set up your Configuration Vars the same way as you did for your env.py 
+* Make sure you have set up your Procfile and you have updated the requirements.txt prior to deploying    
+* Click the deploy tab and go to manual deploy
+* Select the branch you wish to deploy and deploy the application on
+* Once it is deployed you will be able to view the application
+* You can set it to automatically deploy every time you push your code to the repository by enabling the Automatic deploys
+
+### Forking
+
+Forking the GitHub Repository
+
+By forking the GitHub Repository, you can make a copy of the original repository in your own GitHub account. This means we can view or make changes without making the changes affecting the original.
+
+* Log into GitHub and locate the GitHub Repository.
+* At the top of the Repository there is a "Fork" button about the "Settings" button on the menu.
+* You should now have a new copy of the original repository in your own GitHub account.
+* You will need to install the requirements.txt using the following command the command line
+        pip3 install -r requirements.txt
+* You will need to set up your local environments and key value pairs for deployment
+
+### Cloning 
+
+Making a Local Clone
+
+* Log into your GitHub then find the gitpod repository
+* Under the repository name there is a button that says, "Clone or download". Click on this button.
+* If cloning with HTTPS "Clone with HTTPS", copy this link.
+* Open Gitbash
+* Change the current working directory to the location where you want the cloned directory to be.
+* Type git clone, and then paste the URL you copied earlier.
+
+        $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+        Press - Enter- Your local clone will be created.
+        $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+                > Cloning into `CI-Clone`...
+                > remote: Counting objects: 10, done.
+                > remote: Compressing objects: 100% (8/8), done.
+                > remove: Total 10 (delta 1), reused 10 (delta 1)
+                > Unpacking objects: 100% (10/10), done.
+[Click Here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for more info on cloning. 
+
+You will need to install the requirements.txt using the following command the command line
+        pip3 install -r requirements.txt
+
+* You will need to set up your local environments and key value pairs for deployment and running the application in your local environment. 
 
 ***
 
