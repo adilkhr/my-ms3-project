@@ -97,7 +97,9 @@ The website will consit of 4 pages for users that have an account and are logged
 
 * An add word page - which will allow the logged in user to add a word into the dictionary
 
-* An Edit word page - if a user has created a word, at the moe page there will be and edit button for them which will take them the edit word page
+* An Edit word page - if a user has created a word, at the home page there will be and edit button for them on the word that they have created which will then take them to the edit word page
+
+If a user is currently logged in, there will be a logout button for them at the navbar
 
 ***
 
@@ -113,11 +115,11 @@ The footer will contain social media links for users to browse and connect with 
 
 ### Home:
 
-Home page will include an image sliders that will present text to make it visually appealing for all users. It will also contain the word definitions that registerd users create with only them being able to edit and delete any words that they have created. It will also contain a search bar for users to search for words with in the dictionary. There will also be a message for users that will direct them to the register page if they would like to add a new word into the dictionary.
+Home page will include an image slider that will present text to the user to make it visually appealing. The dictionary is displayed to show the user all current words. IF the user is the author of a word then a button will appear giving them the option to edit the word. There is a search bar for users to search for words within the dictionary. There is a search bar for users to search for words within the dictionary.
 
 ### Log in page:
 
-A log in page for users who have already registered in the past to access their account by inputing their username and password into log in form. It will also contain a carousel slide of images along with a quote underneath it.
+A log in page for users who have already registered in the past to access their account by inputing their username and password into the log in form. It will also contain a carousel slide of images along with a quote underneath it.
 
 ### Register page:
 
@@ -129,11 +131,11 @@ A profile page for users once they log in will be prompted this page with their 
 
 ### Add words page:
 
-A page for users to add a new word with a definiton to the dicitionary for other users to see when they access the home page of the site. It will also contain a carousel slide of images along with a quote underneath it.
+A page for logged in users to add a new word with a definiton to the dicitionary for other users to see when they access the home page of the site. It will also contain a carousel slide of images along with a quote underneath it.
 
 ### Log out:
 
-An option for users who are logged in to log out once they are finished using the site.
+A button that will be located in the navbar for users who are logged in to log out once they are finished using the site.
 
 ### 
 
@@ -141,7 +143,13 @@ An option for users who are logged in to log out once they are finished using th
 
 ## Future Features 
 
-A future feature that I would like to add to my website would be more customisable features for users who have an account on their profile page. This would be great for users as they will enjoy using the site even more and will possibly use the site even longer.
+* Customisable features for registered users to change color schemes of their profile and the site
+
+* An option for registered users to add a profile image
+
+* An option for registered users to delete their account
+
+* An option for users to like words and submit word disputes
 
 ***
 
