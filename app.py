@@ -29,7 +29,7 @@ def get_words():
 def search():
     query = request.form.get("query")
     words = list(mongo.db.words.find({"$text": {"$search": query}}))
-    return render_template("words.html", words=words)   
+    return render_template("words.html", words=words)
 
 
 @app.route("/register", methods=["GET", "POST"])
@@ -67,12 +67,12 @@ def login():
         if existing_user:
             # ensure hashed password matches user input
             if check_password_hash(
-                existing_user["password"], request.form.get("password")):
+               existing_user["password"], request.form.get("password")):
                     session["user"] = request.form.get("username").lower()
                     flash("Welcome, {}".format(
                         request.form.get("username")))
                     return redirect(url_for(
-                        "profile", username=session["user"]))    
+                        "profile", username=session["user"]))
             else:
                 # invalid password match
                 flash("Incorrect Username and/or Password")
@@ -90,7 +90,7 @@ def login():
 def profile(username):
     # grab the session user's username from db
     username = mongo.db.users.find_one(
-        {"username": session ["user"]})["username"]
+        {"username": session["user"]})["username"]
 
     if session["user"]:
         return render_template("profile.html", username=username)
@@ -100,7 +100,7 @@ def profile(username):
 
 @app.route("/logout")
 def logout():
-    #remove user from session cookies
+    # remove user from session cookies
     flash("You have been logged out")
     session.pop("user")
     return redirect(url_for("login"))
@@ -118,7 +118,7 @@ def add_words():
         flash("Word Succesfully Added")
         return redirect(url_for("get_words"))
 
-    return render_template("add_words.html")  
+    return render_template("add_words.html")
 
 
 @app.route("/edit_word/<word_id>", methods=["GET", "POST"])
@@ -133,7 +133,7 @@ def edit_word(word_id):
         flash("Word Succesfully Updated")
 
     word = mongo.db.words.find_one({"_id": ObjectId(word_id)})
-    return render_template("edit_word.html", word=word) 
+    return render_template("edit_word.html", word=word)
 
 
 @app.route("/delete_word/<word_id>")
@@ -145,5 +145,5 @@ def delete_word(word_id):
 
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
-           port=int(os.environ.get("PORT")),
-           debug=True)
+            port=int(os.environ.get("PORT")),
+            debug=True)

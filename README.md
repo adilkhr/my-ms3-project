@@ -212,6 +212,14 @@ Tested on iOS, Android 10, and Windows 10. - I asked a friend with an Android to
 
 ### Code Validation:
 
+* All my pages of the website was run through the [HTML Validator](https://validator.w3.org/#validate_by_input), because of flask being a templating language, the code when inputed was not showing the html code being valid, however i copied the html code om within DEV Tools, both by viewing page source and from within the inspect as HTML and pasted it into the validators to check the validity which all pages showed validity
+
+* The [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to check the validity of my CSS code which turned out to be all fine with no faults
+
+* [jshint](https://jshint.com/) was used to check the validity of my javascript code which turned out to be all fine with no faults
+
+* [Pep8 Online](http://pep8online.com/) was used to check for Pep8 compliances for my python file and test the validity of the code, which the code turned out to be all good
+
 ### Fixed bugs:
 
 ***
