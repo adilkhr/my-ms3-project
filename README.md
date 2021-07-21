@@ -215,6 +215,8 @@ Note: Wireframes for the desktop share similar strucuture for tablet
 
 The application was built using the Flask Famework which is reliant on the jinja templating language. The application was written in python.
 
+I used pip3 install Flask intp the terminal to install flask. I used the standard port used for Flask applications which is "5000" and the IP set to "0.0.0.0".
+
 Flask-PyMongo - For the applicaition to interact with the MongoDB database
 
 Werkzeug - Used for providing security's, password_hash, check_password_hash
