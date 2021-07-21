@@ -28,7 +28,7 @@ As a new user:
 * I want the site to be very easy to navigate aswell as being able to use it on other devices aswell
 * I would like to be able to create account for the applicaiton to add new definitions
 
-#### Visting User goals:
+#### Existing User goals:
 
 * As a user, i want to be able to sign up to add new defintions for words for others to see and understand what it means
 * As a user, when signing up i would like to have a profile portal that is fully functional and working
@@ -209,6 +209,23 @@ Tested on iOS, Android 10, and Windows 10. - I asked a friend with an Android to
 ### Peformance Testing:
 
 ### Testing User Stories:
+
+#### New User
+
+* I am looking to understand what certain words/terms mean for the game - Users can check for definition on the home page and by also using the searchbar to find a specific word
+
+* I want the site to be very easy to navigate aswell as being able to use it on other devices aswell - The user will have no problem acessing the site on either mobile or desktop as its responsive for both, and with mobile features implemented such as collapsable navbar
+
+* I would like to be able to create account for the applicaiton to add new definitions - The user is able to create an account at the register page with a username of their choice that is if the username has not already been taken, along with a password
+
+#### Existing User
+
+* As a user, i want to be able to add new defintions for words for others to see and understand what it means - The user can add new words in the dictionary at the add word page when they are logged in
+
+* As a user, when signing up i would like to have a profile portal that is fully functional and working - When the user signs up they are prompted to the profile page higlighting their name aswell as a welcome message and image with also a shortcut link to add a new word into the dictionary
+
+* As a user, i want to be able to update defintions of words aswell having the option to delete - Users can edit or delete any words that they have added into the dictionary when they are logged in at the home page, when clicking the delete button on the word the definiton will delete, when clicking the edit button on the word they are sent to an edit words page which they are then able to edit the word with a new definition or they simply cancel the edit task and be sent straight back to the home page
+
 
 ### Code Validation:
 
