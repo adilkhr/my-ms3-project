@@ -10,7 +10,7 @@
 
 ## The purpose of the project
 
-* To create an applicaition for users to look for definitions for words used in Call Of Duty warzone and understand what these terms mean in the game. I have allowed users to create an account so they can add their own definitions for new words. Users are able to update and delete their own defintions. I have used MongoDB to store the data and have use the framework Flask alongside HTML and custom CSS for the website's front-end.
+* To create an applicaition for users to look for definitions for words used in Call Of Duty warzone and understand what these terms mean in the game. I have allowed users to create an account so they can add their own definitions for new words. Users are able to update and delete their own defintions. I have used MongoDB to store the data and have used the framework Flask alongside HTML and custom CSS for the website's front-end.
 
 ***
 
@@ -34,7 +34,7 @@ As a new user:
 
 #### Existing User goals:
 
-* I want to be able to sign up to add new defintions for words for others to see and understand what it means
+* I want to be able to sign up to add new definitions for words for others to see and understand what it means
 
 * I would like to have a profile portal that is fully functional and working
 
@@ -63,7 +63,7 @@ As a new user:
 
 #### What a user may want:
 
-* An option to edit a word (once they have created an account) that they have added into the dictionary if they feel like they can improve the meaning of it
+* An option to edit a word (once they have created an account) that they have added into the dictionary if they want to update the meaning
 
 * An option to delete a word (once they have created an account) that they added into the dictionary
 
@@ -77,7 +77,7 @@ As a new user:
 
 * To allow registered users to create new words with the definition and add them to the dictionary
 
-* To also allow registered users to only have the choice wether or not they would like to delete or edit their words in the dictionary
+* To also allow registered users to have the choice wether or not they would like to delete or edit their words created and added into the dictionary
 
 ## Structure
 
@@ -115,6 +115,9 @@ The user collection will contain doccuments of the accounts created with the key
 
 ### Data Model:
 
+The diagram below is the data model design of the site showcasing the architecture of the Web App. This displays the journeys users can take throughout the website.
+
+![Data Model](README-files/ms3datamodel.jpg)
 
 ***
 
@@ -122,7 +125,7 @@ The user collection will contain doccuments of the accounts created with the key
 
 ### Navigation Bar:
 
-The navigation bar will be simple black and white,easy to use with the name of COD Dictionary which will have a home, log in and register pages for new users and users who are not logged in. When users log in, it will have a home, profile addwords and a logout link. On smaller devices I have used a dropdown button to display the menu to make it fully responsive.
+The navigation bar will be simple with the colors black and white, easy to use with the name of COD Dictionary which will have a home, log in and register pages for new users and users who are not logged in. When users log in, it will have a home, profile addwords and a logout link. On smaller devices I have used a dropdown button to display the menu to make it fully responsive.
 
 ### Footer:
 
