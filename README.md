@@ -229,7 +229,7 @@ Note: Wireframes for the desktop share similar strucuture for tablet
 ### Planning
 
 * [Balsamic Wireframes](https://balsamiq.com/) - Used to create the wireframe designs of the site
-* Panit - Used to create the data model
+* Paint - Used to create the data model
 
 ### Flask
 
